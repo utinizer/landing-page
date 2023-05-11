@@ -1,3 +1,9 @@
+body{
+    margin:0px;
+}
+
+/* THE HEADER */
+
 .header{
     display:flex;
     background-color:#1F2937;
@@ -21,3 +27,55 @@
 .header li{
     color:white;
 }
+
+/* SECTION ONE */
+
+.section-one{
+    display:flex;
+    background-color:#1F2937;
+    height:400px;
+    align-items:center;
+    justify-content:center;
+    gap:100px;
+}
+
+.section-one .left{
+    width:400px;
+}
+
+.section-one .title{
+    font-size:48px;
+    color:white;
+    font-weight:bold;
+}
+
+.section-one .text{
+    font-size:18px;
+    color:white;
+}
+
+.section-one .right{
+    background-color:gray;
+}
+
+.section-one .image{
+    color:white;
+}
+
+.section-one .image{
+    padding:100px;
+}
+
+.section-one button{
+    font-size:15px;
+    background-color:#3882F6;
+    padding:5px 20px;
+    margin-top:10px;
+    color:white;
+    font-weight:bold;
+    border-radius:10px;
+    border-color:#3882F6;
+}
+
+/* SECTION TWO */
+
