@@ -79,3 +79,32 @@ body{
 
 /* SECTION TWO */
 
+.section-two{
+    height:400px;
+}
+
+.section-two .title{
+    text-align:center;
+    font-weight:bolder;
+    font-size:36px;
+    padding:40px;
+}
+
+.section-two .container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+}
+
+.section-two .one,.two,.three,.four{
+    width:150px;
+    text-align:center;
+}
+
+.section-two .image-one,.image-two,.image-three,.image-four{
+    padding:75px;
+    border:solid;
+    border-color:#3882F6;
+    border-radius:10px;
+    margin-bottom:10px;
+}
