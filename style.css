@@ -136,3 +136,40 @@ body{
     font-size:22px;
     margin-top:10px;
 }
+
+/* SECTION FOUR */
+
+.section-four{
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    color:white;
+}
+
+.section-four .container{
+    background-color:#3882F6;
+    display:flex;
+    margin:80px 160px;
+    flex:1;
+    border-radius:10px;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.section-four .title{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.section-four button{
+    color:white;
+    background-color:#3882F6;
+    font-weight:bold;
+    border-radius:10px;
+    padding:5px 20px;
+    border-color:white;
+    border:solid 2px;
+    font-size:15px;
+}
+
