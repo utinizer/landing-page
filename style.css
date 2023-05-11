@@ -1,3 +1,4 @@
+
 body{
     margin:0px;
 }
@@ -107,4 +108,31 @@ body{
     border-color:#3882F6;
     border-radius:10px;
     margin-bottom:10px;
+}
+
+/* SECTION THREE */
+
+.section-three{
+    background-color:#E5E7EB;
+    height:350px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.section-three .container{
+    width:700px;
+}
+
+.section-three .quote{
+    font-size:36px;
+    font-style:italic;
+    color:#1F2937;
+}
+
+.section-three .author{
+    text-align:right;
+    font-weight:bold;
+    font-size:22px;
+    margin-top:10px;
 }
